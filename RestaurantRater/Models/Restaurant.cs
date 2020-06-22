@@ -8,7 +8,7 @@ namespace RestaurantRater.Models
 {
     public class Restaurant
     {
-        public int RestaurantId { get; set; }
+        public int RestaurantId { get; set; }     
         public string Name { get; set; }
         public string Address { get; set; }
         public int Rating { get; set; }
@@ -17,4 +17,4 @@ namespace RestaurantRater.Models
     {
         public DbSet<Restaurant> Restaurants  { get; set; }
     }
-}
+}           
